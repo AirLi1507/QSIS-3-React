@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Noto Sans';
+}
+
+*::-webkit-scrollbar {display: none;}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+::-ms-reveal {
+  display: none;
+}
+
+.text-shadow-1 {
+  text-shadow: 1px 1px 1px rgba(40, 105, 133, 0.25);
+}
+
+.text-shadow-2 {
+  text-shadow: 1px 1px 1px rgba(40, 105, 133, 0.5);
+}
