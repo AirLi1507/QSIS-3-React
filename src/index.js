@@ -20,11 +20,13 @@ document.head.innerHTML += `
   <title>QSIS 3</title>
 `
 
-var loginState = sessionStorage.getItem('login')
+// var loginState = sessionStorage.getItem('login')
 
-if (loginState === null || loginState === undefined) {
-  loginState = false
-}
+// if (loginState === null || loginState === undefined) {
+//   loginState = false
+// }
+
+var loginState = document.cookie.split(' ')[0]
 
 root.render(
   <App>
